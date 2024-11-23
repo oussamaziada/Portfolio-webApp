@@ -14,19 +14,19 @@ export class ProjectsComponent {
     this.projects = [
            new project(
         'Graph transformers',
-        'IA',
+        'AI',
         'Deep learning, Graph-ml, Graph theory, Image processing, Python, TensorFlow, PyTorch, Transformers, CNN',
         '2024',
         'https://github.com/oussamaziada/graph-transformers',
         'A project focused on applying Graph Transformers to human embryo classification, exploring the extension of transformer networks to graphs for machine learning.',
-        ['thumbnail.jpg','image 1.png','image 2.png'],
+        ['thumbnail.jpg','image 1.jpg','image 2.png','image 3.png'],
         "",
         "Rapport_PFA.pdf"
         
       ),
       new project(
         'Data-Driven Models for Rainfall and River Water Level Forecasting',
-        'IA',
+        'AI',
         'deep learning, Time-series analysis, Python, Pandas, TensorFlow, Data visualization, Project management',
         '2024',
         '',
@@ -38,13 +38,27 @@ export class ProjectsComponent {
       ),
       
       new project(
+        'Image Anomaly Detection',
+        'AI',
+        'Deep learning,Auto-encoders, Image processing, Python, PyTorch,',
+        '2024',
+        'https://github.com/oussamaziada/AnomalyDetection',
+        "Developed a project with the objective of automating the identification of cloud in satellite images. Achieved accurate predictions through the analysis of input images, employing an autoencoder architecture in the process.",
+        ['thumbnail.jpg',],      
+        'https://drive.google.com/file/d/1S_6Dw238xLlE169W4A6J9AQHnH71fkmc/preview',
+        "Image Anomaly Detection"
+
+        
+      ),
+      
+      new project(
         'Club Hub',
         'Web Dev',
         'Nest JS',
         '2024',
         'https://github.com/oussamaziada/clubs-hub-master',
         ' Development of a website facilitating student engagement by providing a space for inter-club coordination, idea sharing, and event participation. As part of a team of three, my task was to design the back-end of this website using NestJS ',
-        ['thumbnail.jpg','image 1.jpg','image 2.jpg','image 3.jpg','image 4.jpg','image 5.jpg','image 6.jpg'],
+        ['thumbnail.jpg','image 1.jpg','image 2.jpg','image 3.jpg','image 4.jpg','image 5.jpg','image 6.jpg','image 7.jpg'],
         "",
         "ClubHub"
 
@@ -52,7 +66,7 @@ export class ProjectsComponent {
       ),
       new project(
         'YOLOv8-animal pose estimation',
-        'IA',
+        'AI',
         'Yolo V8m',
         '2024',
         'https://github.com/MedSalimBenOmrane/YOLOv8-animal-pose-estimation',
@@ -71,7 +85,7 @@ export class ProjectsComponent {
         '2023',
         '',
         "Data analysis of Tunisian university results and implementation of an interactive skills dashboard..",
-        ['thumbnail.jpg','image.jpg'],
+        ['thumbnail.jpg','image 1.png'],
         "",
         "rapport_oussama_ziada"
       ),
