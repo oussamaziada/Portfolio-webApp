@@ -70,7 +70,7 @@ export class ProjectsComponent {
         'Yolo V8m',
         '2024',
         'https://github.com/MedSalimBenOmrane/YOLOv8-animal-pose-estimation',
-        'We are fine-tuning YOLOv8m-pose, pre-trained for human pose estimation, for animal pose estimation using the MacaquePose dataset. This aims to enhance pose detection accuracy in animals.',
+        'Fine-tuned a YOLOv8m-pose model, pre-trained for human pose estimation, for animal pose estimation using the MacaquePose dataset. This aims to enhance pose detection accuracy in animals.',
         ['thumbnail.jpg','image 1.jpg'],
         "",
         ""
@@ -85,7 +85,7 @@ export class ProjectsComponent {
         '2023',
         '',
         "Data analysis of Tunisian university results and implementation of an interactive skills dashboard..",
-        ['thumbnail.jpg','image 1.png'],
+        ['thumbnail.jpg','image 1.png','image 2.png'],
         "",
         "rapport_oussama_ziada"
       ),
