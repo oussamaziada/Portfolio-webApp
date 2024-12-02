@@ -38,8 +38,8 @@
                                 <b class="key">tools : </b>
                                 <span class="ft-wt-600 uppercase">{{project.stack}}</span>
                             </div>
-                            <div class="col-12 col-sm-6 mb-2">
-                                <b class="key">Preview :</b>
+                            <div *ngIf="project.links" class="col-12 col-sm-6 mb-2">
+                                <b class="key">code :</b>
                                 <a class="preview-link" target="_blank" rel="noopener noreferrer nofollow"
                                     href="{{project.links}}"
                                     style="cursor: none; color: #ffffff">link</a>
