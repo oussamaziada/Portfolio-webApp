@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AboutMeComponent {
   downloadPdf() {
-    const pdfUrl = 'assets/OussamaZiadaEn.pdf'; // Update with your local PDF file path
+    const pdfUrl = 'assets/OussamaZiada.pdf'; // Update with your local PDF file path
     const link = document.createElement('a');
     link.href = pdfUrl;
     link.download = 'OussamaZiadaEn.pdf';
