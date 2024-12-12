@@ -10,7 +10,7 @@ export class AboutMeComponent {
     const pdfUrl = 'assets/OussamaZiada.pdf'; // Update with your local PDF file path
     const link = document.createElement('a');
     link.href = pdfUrl;
-    link.download = 'OussamaZiadaEn.pdf';
+    link.download = 'OussamaZiada.pdf';
     link.click();
     document.body.removeChild(link);
   }
