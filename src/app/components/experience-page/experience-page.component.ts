@@ -14,9 +14,9 @@ export class ExperiencePageComponent {
         'Data Science Intern - Karunya Institute Of Technology, India ',
         'July 2024 - September 2024',
         [
-          'Data collection, cleaning, and preparation.',
-          'Trend analysis of various meteorological and hydrological parameters in India using historical data. ',
-          'Development of predictive models to estimate meteorological parameters using machine learning techniques.'
+          'Cleaned and prepared over 7.3K records of time-series data, ensuring a robust dataset for analysis',
+          'Conducted trend analysis to identify critical patterns in climate data, directly contributing to agriculture and disaster prevention initiatives.',
+          'Development of predictive models to estimate meteorological parameters using deep learning techniques outperforming existing models by 10%.'
         ]
       ),
       new Expinfo(
@@ -30,14 +30,15 @@ export class ExperiencePageComponent {
         'Data Analysis Intern - KPI Associates, Tunis',
         'Juin 2024- August 2024',
         [
-          'Data analysis of Tunisian university results and implementation of an interactive skills dashboard.'
+          'Conducted data analysis on 100K+ records, uncovering key insights for policy recommendations.',
+          'Built an interactive Power BI dashboard summarizing academic performance trends across Tunisian universities.'
         ]
       ),
       new Expinfo(
         'Baccalaureate Degree',
         'August-2020',
         [
-          'Baccalaureate Degree in Computer Science.'
+          'Baccalaureate Degree in Mathematics.'
         ]
       )
       
