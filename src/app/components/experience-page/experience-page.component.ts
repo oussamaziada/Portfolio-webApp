@@ -11,6 +11,25 @@ export class ExperiencePageComponent {
   constructor() {
     this.exps = [
       new Expinfo(
+        'AI Engineer Intern - Imerys, Paris, France',
+        'Mar 2025 - Sept 2025',
+        [
+          'Built a multimodal Retrieval-Augmented Generation (RAG) system combining LLMs with structured and unstructured data (text, industrial diagrams, technical reports) to support engineers in real-time decision-making.',
+          'Developed autonomous agents capable of contextual reasoning and tool integration using the Model Context Protocol (MCP).',
+          'Designed and orchestrated intelligent workflows for process optimization and industrial knowledge retrieval.',
+          'Deployed scalable, end-to-end solutions on AWS (EC2, ECS, Lambda, S3, SageMaker, API Gateway) ensuring high availability and low latency.',
+          'Contributed to the development of reusable components within the company’s LLM-powered infrastructure.'
+        ]
+      ),
+      
+      new Expinfo(
+        'INSAT - Engineering Degree ',
+        '2020-2025',
+        [
+          'Engineering Degree in Computer networks and telecommunications.'
+        ]
+      ),
+      new Expinfo(
         'Data Science Intern - Karunya Institute Of Technology, India ',
         'July 2024 - September 2024',
         [
@@ -20,10 +39,10 @@ export class ExperiencePageComponent {
         ]
       ),
       new Expinfo(
-        'INSAT - Engineering Degree ',
-        '2020-2025',
+        'Baccalaureate Degree',
+        'August-2020',
         [
-          'Engineering Degree in Computer networks and telecommunications.'
+          'Baccalaureate Degree in Mathematics.'
         ]
       ),
       new Expinfo(
@@ -33,15 +52,7 @@ export class ExperiencePageComponent {
           'Conducted data analysis on 100K+ records, uncovering key insights for policy recommendations.',
           'Built an interactive Power BI dashboard summarizing academic performance trends across Tunisian universities.'
         ]
-      ),
-      new Expinfo(
-        'Baccalaureate Degree',
-        'August-2020',
-        [
-          'Baccalaureate Degree in Mathematics.'
-        ]
-      )
-      
+      ),      
     ];
   }
 }

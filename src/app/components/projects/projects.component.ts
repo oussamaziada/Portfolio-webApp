@@ -12,6 +12,17 @@ export class ProjectsComponent {
   path1:string="https://www.youtube.com/embed/KnTs16PImcA?si=b4Ig_53-Ux-J-_4p";
   constructor(private modalService: NgbModal) {
     this.projects = [
+      new project(
+        'Industrial AI Agent',
+        'AI',
+        'Deep Learning, LLMs, RAG (Retrieval-Augmented Generation), Multimodal Retrieval, Model Context Protocol (MCP), AWS (EC2, ECS, Lambda, S3, SageMaker)',
+        '2025',
+        '',
+        'A project aimed at developing a scalable, multimodal Retrieval-Augmented Generation (RAG) system to assist engineers in real-time decision-making. The system integrated both structured and unstructured data sources—such as industrial diagrams, technical documents, and textual inputs—enhanced by large language models (LLMs). It featured autonomous agents capable of contextual reasoning and task automation, powered by the Model Context Protocol (MCP). These agents orchestrated intelligent workflows for knowledge retrieval and process optimization. The entire solution was deployed end-to-end on AWS using services such as EC2, ECS, Lambda, S3, SageMaker, and API Gateway, ensuring high availability and low latency. The project also contributed to the company’s internal AI infrastructure by developing reusable components for LLM-based pipelines.',
+        ['thumbnail.jpg'],
+        "",
+      ),
+
            new project(
         'Graph transformers',
         'AI',
